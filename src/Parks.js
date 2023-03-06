@@ -4,6 +4,7 @@ import ParkCard from './ParkCard';
 function Parks() {
   return (
     <div>Parks</div>
+
   )
 }
 
