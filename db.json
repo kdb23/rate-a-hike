@@ -99,6 +99,27 @@
           "hikeThreeLength": "14.9 Miles",
           "hikeThreeDescription":"Just across the Going-to-the-Sun Road from the Logan Pass Visitors Center, is the Highline Trail. This must-do hike spans all the way from here to the Loop Trailhead, with an optional offshoot to the Grinnell Glacier Overlook."
         }
+      }, 
+      {
+        "id": 6,
+        "name": "Grand Canyon",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg",
+        "description": "Grand Canyon National Park, in Arizona, is home to much of the immense Grand Canyon, with its layered bands of red rock revealing millions of years of geological history. Viewpoints include Mather Point, Yavapai Observation Station and architect Mary Colter’s Lookout Studio and her Desert View Watchtower. Lipan Point, with wide views of the canyon and Colorado River, is a popular, especially at sunrise and sunset.",
+        "location": "Tusayan, AZ",
+        "size": "1,902 Sq Miles",
+        "highest-point": "Point Imperial at 8,803 feet",
+        "hike": {
+          "hikeOne": "Sout Kaibab Trail",
+          "hikeOneLength": "3.1 Miles", 
+          "hikeOneDescription":"The South Kaibab Trail begins south of Yaki Point on Yaki Point Road. This route is a day hike to the mule-hitching post at Cedar Ridge. It has incredible views for a relatively short hike and is overall a steep trek with no water and little shade. There is, however, water available seasonally at the trailhead.",
+          "hikeTwo": "Bright Angel Trail",
+          "hikeTwoLength": "15.3 Miles",
+          "hikeTwoDescription":"Bright Angel is the most popular trail in the Grand Canyon, and for good reason. The route starts right in Grand Canyon Village on the South Rim, with frequent rest houses and water along the way. The trail is also an out-and-back, so you can turn around whenever you want. It is not suggested to do the full route in one day, but rather in sections along a multi-day backpacking trip.",
+          "hikeThree": "Plateau Point Trail",
+          "hikeThreeLength": "11.9 Miles",
+          "hikeThreeDescription":"This route leads from the Bright Angel Trailhead and connects with the Plateau Point Trail. A challenging series of switchbacks leads down the canyon which passes by Havasupai Gardens before heading to Plateau Point. There are several resthouses with water along the way. The view at the end of the trail is unmatched, with 360-degree panoramic vistas of the impressive red-canyon walls."
+        }
       }
+
     ]
   }
