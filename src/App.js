@@ -1,7 +1,6 @@
 
 import './App.css';
 import {useEffect, useState} from "react"
-import Button from 'react-bootstrap/Button';
 import Parks from './Parks';
 import Header from './Header';
 
@@ -10,7 +9,7 @@ function App() {
   const [parks, setParks] = useState([])
 
   useEffect(() => {
-    fetch("")
+    fetch("http://localhost:3002/parks")
       .then(r => r.json())
       .then(setParks)
   }, [])
