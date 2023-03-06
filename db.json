@@ -1,0 +1,104 @@
+{
+    "parks": [
+      {
+        "id": 1,
+        "name": "Yellowstone",
+        "image": "https://media.istockphoto.com/id/1135715079/photo/yellowstone-national-park-wyoming-usa.jpg?s=612x612&w=0&k=20&c=ZWAnLEFlZHLSZYo7JLx2bgvPEL29jOdIk0_MRdTreB0=",
+        "description": "Yellowstone National Park is a wilderness recreation area atop a volcanic hot spot. Mostly in Wyoming, the park spreads into parts of Montana and Idaho too. Yellowstone features dramatic canyons, alpine rivers, lush forests, hot springs and gushing geysers, including its most famous, Old Faithful. It's also home to hundreds of animal species, including bears, wolves, bison, elk and antelope.",
+        "location": "Mammoth, WY",
+        "size": "3500 Sq Miles",
+        "highest-point": "Eagle Peak at 11,372 feet",
+        "hike": {
+          "hikeOne": "Mt Washburn",
+          "hikeOneLength": "7.1 Miles", 
+          "hikeOneDescription":"The trail starts from Dunraven Pass on an old road then switchbacks to the top of Mt. Washburn. Enjoy 360-degree views and check out the interpretive area. A shorter alternate route to the top of the lookout is via the Chittenden Road. On the way down you can head east at the junction and traverse the ridgeline toward the Canyon Area, but this option does require arranging for a shuttle/transportation. (This is a high elevation trail. Storms are common; bring rain gear, wool hats, and gloves. Not recommended for persons with heart and/or respiratory problems.)",
+          "hikeTwo": "North Rim Trail",
+          "hikeTwoLength": "6.8 Miles",
+          "hikeTwoDescription":"This trail follows the beautiful north rim of the Grand Canyon of the Yellowstone River. The trail begins at the north side of Chittenden Bridge and follows the river downstream along an old road. Take the stairs down to view the Upper Falls, then return to the trail and continue to the Upper Falls parking lot. You can take a second spur to the Crystal Falls overlook. The trail crosses Cascade creek, and then switchbacks down to the brink of Lower Falls. Return to the trail, continue to the end of the parking lot and descend down to Lookout Point. Follow the Red Rock Trail for another view of the Lower Falls then continue to Grand View along the edge of the canyon. The trail turns to dirt and takes you to Inspiration Point where you can turn around or arrange for a shuttle/transportation.",
+          "hikeThree": "Ribbon Lake Loop",
+          "hikeThreeLength": "6.1 Miles",
+          "hikeThreeDescription":"This loop connects two small lakes along the south rim of the Grand Canyon of the Yellowstone. This relatively level trail winds through meadows and forest to the emerald green colored Clear Lake. After a stretch of hydrothermal area, continue straight at the trail junction towards the lily pad covered Ribbon Lake. Head back the way your came, but take a right at the junction past Lilly Pad Lake, Artist Point, Uncle Tom’s Cabin, and back to your car."
+        }
+      },
+      {
+        "id": 2,
+        "name": "Yosemite",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fyosemite%2520national%2520park%2F&psig=AOvVaw2Bqm9Ny7sa7sEZ_nGDfaqC&ust=1678206959062000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCKjyv57ex_0CFQAAAAAdAAAAABAI",
+        "description": "Yosemite National Park is in California’s Sierra Nevada mountains. It’s famed for its giant, ancient sequoia trees, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome. In Yosemite Village are shops, restaurants, lodging, the Yosemite Museum and the Ansel Adams Gallery, with prints of the photographer’s renowned black-and-white landscapes of the area.",
+        "location": "Yosemite, CA",
+        "size": "1169 Sq Miles",
+        "highest-point": "Mount Lyell at 13,114 feet",
+        "hike": {
+          "hikeOne": "Vernal and Nevada Falls via Mist Trail",
+          "hikeOneLength": "6.4 Miles", 
+          "hikeOneDescription":"Hike to two breathtaking waterfalls along some of Yosemite Valley's most popular hiking trails. If you only have time for one hike while in Yosemite look no further - the Mist Trail is the hike for you. It is no wonder why this trail is one of the most traveled in Yosemite National Park. You will hike so close to these two massive waterfalls that you may get wet from the trail. The best time to hike this trail is in Spring or early Summer, while the snow runoff is high and the falls are full of water.",
+          "hikeTwo": "Upper Yosemite Falls",
+          "hikeTwoLength": "6.6 Miles",
+          "hikeTwoDescription":"Enjoy the incredible views of looking down from the top of Yosemite Falls, the tallest waterfall in the continental US. Yosemite Falls, dropping 2,425 feet to the bottom of the valley from the top, is one of the most visited places in Yosemite National Park. The falls consists of three sections: upper falls, middle cascade and lower falls. While most people only make the short trip to visit lower falls, upper falls is definitely worthy of visiting due to its panoramic views of Yosemite Valley and the opportunity to see this amazing waterfall up close.",
+          "hikeThree": "Vernal Falls",
+          "hikeThreeLength": "3.1 Miles",
+          "hikeThreeDescription":"Vernal Falls is one of the most popular destinations in Yosemite and for good reason! This trail follows the Mist Trail up a short but steep paved path. After this climb you will reach a bridge with views up to Vernal Falls. This is followed by a short section of wide dirt trail and finally a steep rock stair set up to the falls themselves. These stairs can extremely slipper due to this mist from the falls, so please exercise caution. "
+        }
+      },
+      {
+        "id": 3,
+        "name": "Rocky Mountain",
+        "image": "https://i0.wp.com/www.hachettebookgroup.com/wp-content/uploads/2020/04/RMNP_BearLake_BrendaDenmark-DT.jpg?resize=1024%2C655&ssl=1",
+        "description": "Rocky Mountain National Park in northern Colorado spans the Continental Divide and encompasses protected mountains, forests and alpine tundra. It's known for the Trail Ridge Road and the Old Fall River Road, drives that pass aspen trees and rivers. The Keyhole Route, a climb crossing vertical rock faces, leads up Longs Peak, the park’s tallest mountain. A trail surrounding Bear Lake offers views of the peaks",
+        "location": "Estes Park, CO",
+        "size": "415 Sq Miles",
+        "highest-point": "Longs Peak at 14,259 feet",
+        "hike": {
+          "hikeOne": "Emerald Lake Trail",
+          "hikeOneLength": "3.0 Miles", 
+          "hikeOneDescription":"This scenic hiking trail through the Tyndall Gorge to Emerald Lake is an extremely popular route in Rocky Mountain National Park. Starting from the Bear Lake Trailhead, hikers will walk through pine forests, past pristine alpine lakes including Nymph Lake and Dream Lakes, and be treated to beautiful vistas of rocky peaks. Throughout your trip you’ll come across incredible views of Flattop Mountain, Hallett Peak, Glacier Gorge, and Tyndall Glacier.",
+          "hikeTwo": "Dream Lake Trail",
+          "hikeTwoLength": "1.9 Miles",
+          "hikeTwoDescription":"Get ready for a trip to the incredibly scenic Dream Lake! The trail is clearly marked and easy to follow. The alpine lake water is so clear that you can often see cutthroat trout swimming by. You'll also visit Nymph Lake, which is filled with lily pads in the summer months. This hike is often lined with gorgeous wildflowers during the summer. ",
+          "hikeThree": "Sky Pond via Glacier Gorge Trail",
+          "hikeThreeLength": "8.6 Miles",
+          "hikeThreeDescription":"This hike to Sky Pond features some of the best views in Rocky Mountain National Park. The trek begins at the Glacier Gorge Trailhead along Bear Lake Road. You'll also stop by several other sought-after spots including Alberta Falls, The Loch (also known as Loch Vale), Lake of Glass, and Timberline Falls. You can also add on a side trip to Andrew's Tarn on your way back.  "
+        }
+      },
+      {
+        "id": 4,
+        "name": "Glacier",
+        "image": "https://www.doi.gov/sites/doi.gov/files/styles/social_media_1200x627/public/blog-post/thumbnail-images/glaciernpshanlin.jpg?itok=BlwMSQH5",
+        "description": "Glacier National Park is a wilderness area in Montana's Rocky Mountains, with glacier-carved peaks and valleys running to the Canadian border. It's crossed by the mountainous Going-to-the-Sun Road. Among more than 700 miles of hiking trails, it has a route to photogenic Hidden Lake. Other activities include backpacking, cycling and camping. Diverse wildlife ranges from mountain goats to grizzly bears",
+        "location": "West glacier, MT",
+        "size": "1.583 Sq Miles",
+        "highest-point": "Mt Cleveland at 10,466 feet",
+        "hike": {
+          "hikeOne": "Avalance Lake",
+          "hikeOneLength": "5.9 Miles", 
+          "hikeOneDescription":"The hike to Avalanche Lake is one of the most popular hikes in Glacier National Park due to the lake’s incredibly clear blue waters and the stunning views you will encounter throughout your trip. You can find the Avalanche Lake Trailhead not far from the West Entrance of the park just past Lake McDonald.",
+          "hikeTwo": "Grinnell Glacier Trail",
+          "hikeTwoLength": "11.2 Miles",
+          "hikeTwoDescription":"Grinnell Glacier is an absolute must-see in Glacier National Park. This challenging hike offers something for everyone: glaciers, waterfalls, lakes, forest, wildlife, and incredible views along the way.",
+          "hikeThree": "Highline Trail",
+          "hikeThreeLength": "14.9 Miles",
+          "hikeThreeDescription":"Just across the Going-to-the-Sun Road from the Logan Pass Visitors Center, is the Highline Trail. This must-do hike spans all the way from here to the Loop Trailhead, with an optional offshoot to the Grinnell Glacier Overlook."
+        }
+      },
+      {
+        "id": 5,
+        "name": "Zion",
+        "image": "https://www.amtrakvacations.com/sites/amtrak/files/styles/hero/public/images/arches-national-park-1821072_1800-600.jpg?h=32711220&itok=lcOWYe1q",
+        "description": "Zion National Park is a southwest Utah nature preserve distinguished by Zion Canyon’s steep red cliffs. Zion Canyon Scenic Drive cuts through its main section, leading to forest trails along the Virgin River. The river flows to the Emerald Pools, which have waterfalls and a hanging garden. Also along the river, partly through deep chasms, is Zion Narrows wading hike.",
+        "location": "Springdale, UT",
+        "size": "229 Sq Miles",
+        "highest-point": "Horse Ranch Mountain at 8,762 feet",
+        "hike": {
+          "hikeOne": "Avalance Lake",
+          "hikeOneLength": "5.9 Miles", 
+          "hikeOneDescription":"The hike to Avalanche Lake is one of the most popular hikes in Glacier National Park due to the lake’s incredibly clear blue waters and the stunning views you will encounter throughout your trip. You can find the Avalanche Lake Trailhead not far from the West Entrance of the park just past Lake McDonald.",
+          "hikeTwo": "Grinnell Glacier Trail",
+          "hikeTwoLength": "11.2 Miles",
+          "hikeTwoDescription":"Grinnell Glacier is an absolute must-see in Glacier National Park. This challenging hike offers something for everyone: glaciers, waterfalls, lakes, forest, wildlife, and incredible views along the way.",
+          "hikeThree": "Highline Trail",
+          "hikeThreeLength": "14.9 Miles",
+          "hikeThreeDescription":"Just across the Going-to-the-Sun Road from the Logan Pass Visitors Center, is the Highline Trail. This must-do hike spans all the way from here to the Loop Trailhead, with an optional offshoot to the Grinnell Glacier Overlook."
+        }
+      },
+    ]
+  }
