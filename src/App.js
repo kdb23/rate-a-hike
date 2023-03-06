@@ -3,6 +3,7 @@ import './App.css';
 import {useEffect, useState} from "react"
 import Parks from './Parks';
 import Header from './Header';
+import ParkForm from './ParkForm'
 
 
 function App() {
@@ -14,9 +15,14 @@ function App() {
       .then(setParks)
   }, [])
 
+  const addProject = (newPark) => {
+    setParks([...parks, newPark])
+  }
+
   return (
     <div>
       <Header></Header>
+      <ParkForm addProject={addProject}/>
       <Parks parks={parks}/>
     </div>
   );
