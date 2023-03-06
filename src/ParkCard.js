@@ -3,12 +3,18 @@ import React from 'react'
 function ParkCard({image,name}) {
 
   return (
-    <div class="card"> 
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+    <div class="card">
         <img class="card-img-top" src={image} alt={name} />
-        <div calss="card-body">
+        <div class="card-body">
             <p class="card-text">{name}</p>
         </div>
-        <button>View More</button>
+        <button type="button" class="btn btn-primary">View More</button>
+    </div>
+    </div>
+    </div>
     </div>
   )
 }
