@@ -29,7 +29,9 @@ function ParkForm ({addProject}) {
             body: JSON.stringify(formData)
         })
         .then((r)=>r.json())
-        .then(addProject(formData))
+        .then(addProject)
+
+        e.target.reset()
 
         console.log("it's submitting")
     }
@@ -39,23 +41,19 @@ function ParkForm ({addProject}) {
         <Form onSubmit={handleSubmit}>
             <Form.Group>
                 <Form.Label>Park Name</Form.Label>
-                <Form.Control type="text" placeholder="XYZZY National Park" name="name" onChange={handleChange}/>.
+                <Form.Control type="text" placeholder="Park Name" name="name" onChange={handleChange}/>.
             </Form.Group>
             <Form.Group>
-                <Form.Label>Image Link</Form.Label>
-                <Form.Control type="text" placeholder="xyzzynationalparkimg.jpg" name="name" onChange={handleChange}/>.
-            </Form.Group>
-            <Form.Group>
-                <Form.Label>Park Name</Form.Label>
-                <Form.Control type="text" placeholder="XYZZY National Park" name="image" onChange={handleChange}/>.
+                <Form.Label>Park Image</Form.Label>
+                <Form.Control type="text" placeholder="Park Image" name="image" onChange={handleChange}/>.
             </Form.Group>
             <Form.Group>
                 <Form.Label>Description</Form.Label>
-                <Form.Control type="text" placeholder="This park is a beautiful blah blah blah..." name="description" onChange={handleChange}/>.
+                <Form.Control type="text" placeholder="Descirption of Park" name="description" onChange={handleChange}/>.
             </Form.Group>
             <Form.Group>
                 <Form.Label>Location</Form.Label>
-                <Form.Control type="text" placeholder="Beavercreek, OH" name="location" onChange={handleChange}/>.
+                <Form.Control type="text" placeholder="Park Location" name="location" onChange={handleChange}/>.
             </Form.Group>
             <Form.Group>
                 <Form.Label>Size</Form.Label>

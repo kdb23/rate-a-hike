@@ -40,7 +40,7 @@ function App() {
           <Parks parks={parks}/>
           </Route>
         <Route exact path = "/parkForm"> 
-          <ParkForm />
+          <ParkForm addProject={addProject}/>
         </Route>
       </Switch>
     </div>
