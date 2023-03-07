@@ -9,7 +9,7 @@ function NavBar() {
       <Navbar bg="dark" variant="dark">
         <Container class="nav flex-column">
           <Navbar.Brand>
-            <NavLink to='/'> Get Away Hikes</NavLink>
+            <NavLink to='/'> Git Away Hikes</NavLink>
           </Navbar.Brand>
           <Nav className="me-auto">
             <NavLink to="/about">About</NavLink>
