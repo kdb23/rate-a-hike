@@ -1,4 +1,5 @@
 import React, {useState} from "react"; 
+import {Container, Row, Col, Button, Form } from 'react-bootstrap'
 
 function ParkForm ({addProject}) {
 
@@ -9,15 +10,13 @@ function ParkForm ({addProject}) {
         location: "", 
         size: "", 
         ['highest-point']: "", 
-        ['hike-name']: "",
-        ['hike-length']: "",
-        ['hike-description']: "", 
     })
 
     let handleChange = (e) => {
         const name = e.target.name
         const value = e.target.value
         setFormData({...formData, [name]:value})
+        console.log(formData)
     }
 
     let handleSubmit = (e) => {
@@ -28,27 +27,39 @@ function ParkForm ({addProject}) {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label> Name </label> 
-            <input type="text" name="name" onChange={handleChange} placeholder="Park Name"></input>
-            <label> Image Link </label> 
-            <input type="text" name="image" onChange={handleChange} placeholder="Image Link"></input>
-            <label> Description </label> 
-            <input type="text" name="description" onChange={handleChange} placeholder="Share some park details"></input>
-            <label> Location </label> 
-            <input type="text" name="location" onChange={handleChange} placeholder="Beavercreek, OH"></input>
-            <label> Size </label> 
-            <input type="text" name="size" onChange={handleChange} placeholder="XXX sq feet"></input>
-            <label> Highest Point </label> 
-            <input type="text" name="highest-point" onChange={handleChange} placeholder="Mount BigBoy at XXX feet "></input>
-            <label> Hike Name </label> 
-            <input type="text" name="hike-name" onChange={handleChange} placeholder="Favorite trial name"></input>
-            <label> Hike Length </label> 
-            <input type="text" name="hike-length" onChange={handleChange} placeholder="X.X miles"></input>
-            <label> Hike Description </label> 
-            <input type="text" name="hike-description" onChange={handleChange} placeholder="Tell us a little about the hike!"></input>
-            <button onClick={handleSubmit}>SUBMIT</button>
-        </form>
+    <Container>
+        <Form onSubmit={handleSubmit}>
+            <Form.Group>
+                <Form.Label>Park Name</Form.Label>
+                <Form.Control type="text" placeholder="XYZZY National Park" name="name" onChange={handleChange}/>.
+            </Form.Group>
+            <Form.Group>
+                <Form.Label>Image Link</Form.Label>
+                <Form.Control type="text" placeholder="xyzzynationalparkimg.jpg" name="name" onChange={handleChange}/>.
+            </Form.Group>
+            <Form.Group>
+                <Form.Label>Park Name</Form.Label>
+                <Form.Control type="text" placeholder="XYZZY National Park" name="image" onChange={handleChange}/>.
+            </Form.Group>
+            <Form.Group>
+                <Form.Label>Description</Form.Label>
+                <Form.Control type="text" placeholder="This park is a beautiful blah blah blah..." name="description" onChange={handleChange}/>.
+            </Form.Group>
+            <Form.Group>
+                <Form.Label>Location</Form.Label>
+                <Form.Control type="text" placeholder="Beavercreek, OH" name="location" onChange={handleChange}/>.
+            </Form.Group>
+            <Form.Group>
+                <Form.Label>Size</Form.Label>
+                <Form.Control type="text" placeholder="X,XXX sq miles" name="size" onChange={handleChange}/>.
+            </Form.Group>
+            <Form.Group>
+                <Form.Label>Highest Point</Form.Label>
+                <Form.Control type="text" placeholder="Mount BigBoy at XXX feet" name="highest-point" onChange={handleChange}/>.
+            </Form.Group>
+            <Button variant="primary" type="submit"> Submit Park </Button>
+        </Form>
+    </Container>
     )
 }
 
