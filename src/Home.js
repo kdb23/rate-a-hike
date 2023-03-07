@@ -23,7 +23,7 @@ useEffect(() => {
   
     return (
         <div>
-        <Header></Header>
+        
         <Carousel></Carousel>
         <NavBar></NavBar>
         <ParkForm addProject={addProject}/>

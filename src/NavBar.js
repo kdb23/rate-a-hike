@@ -11,6 +11,7 @@ function NavBar() {
           <Navbar.Brand to="/">Git-Away Hikes</Navbar.Brand>
           <Nav className="me-auto">
             <NavLink to="/about">About</NavLink>
+            <div> ""  </div>
             <NavLink to="/parkform">Submit A Hike</NavLink>
           </Nav>
         </Container>
