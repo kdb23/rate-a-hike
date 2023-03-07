@@ -8,20 +8,9 @@ import NavBar from './NavBar';
 import { Carousel } from 'react-bootstrap';
 import { Route, Switch } from 'react-router-dom';
 import Home from './Home'
-import ParkCard from './ParkCard'
+import ParkCard from './ParkCard';
 
 function App() {
-  // const [parks, setParks] = useState([])
-
-  // useEffect(() => {
-  //   fetch("http://localhost:3002/parks")
-  //     .then(r => r.json())
-  //     .then(setParks)
-  // }, [])
-
-  // const addProject = (newPark) => {
-  //   setParks([...parks, newPark])
-  //}
 
   return (
     <div>
@@ -33,16 +22,13 @@ function App() {
         <Route exact path = "/"> 
           <Home />
         </Route>
-        <Route exact path = "/About">
+        <Route exact path = "/about">
           <ParkCard />
           </Route>
-        <Route exact path = "/ParkForm"> 
+        <Route exact path = "/parkForm"> 
           <ParkForm />
         </Route>
       </Switch>
-      {/* <NavBar></NavBar>
-      <ParkForm addProject={addProject}/>
-      <Parks parks={parks}/>  */}
     </div>
   );
 }

@@ -1,24 +1,23 @@
 import React from 'react'
+import {Container, Row, Col, Button } from 'react-bootstrap'
+
 
 function ParkCard({image,name}) {
 
   return (
-    <div>
-    <h1> Hi </h1>
-    <div class="container">
-      <div class="row">
+    <Container>
+      <Row>
         <div class="col-4">
     <div class="card">
         <img class="card-img-top" src={image} alt={name} />
         <div class="card-body">
             <p class="card-text">{name}</p>
         </div>
-        <button type="button" class="btn btn-primary">View More</button>
+        <Button type="button" class="btn btn-primary">View More</Button>
     </div>
     </div>
-    </div>
-    </div>
-    </div>
+    </Row>
+   </Container> 
   )
 }
 
