@@ -17,7 +17,7 @@ function App() {
       
       <Header />
       <Carousel/>
-      <NavBar />
+      <NavBar></NavBar>
       <Switch>
         <Route exact path = "/"> 
           <Home />

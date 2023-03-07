@@ -25,7 +25,6 @@ useEffect(() => {
         <div>
         
         <Carousel></Carousel>
-        <NavBar></NavBar>
         <ParkForm addProject={addProject}/>
         <Parks parks={parks}/>
       </div>  
