@@ -21,9 +21,17 @@ function ParkForm ({addProject}) {
 
     let handleSubmit = (e) => {
         e.preventDefault()
+        fetch('http://localhost:3002/parks', {
+            method: "POST",
+            headers: {
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify(formData)
+        })
+        .then((r)=>r.json())
+        .then(addProject(formData))
+
         console.log("it's submitting")
-        // post request will go in here, but not yet
-        addProject(formData)
     }
 
     return (
