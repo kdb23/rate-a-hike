@@ -10,8 +10,8 @@ function NavBar() {
           <Navbar.Brand href="#home">"Git-Away Hikes"</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">About Page</Nav.Link>
-            <Nav.Link href="#pricing">Reviews</Nav.Link>
+            <Nav.Link href="#about">About Page</Nav.Link>
+            <Nav.Link href="#reviews">Reviews</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

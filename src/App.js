@@ -8,6 +8,7 @@ import NavBar from './NavBar';
 import { Carousel } from 'react-bootstrap';
 import { Route, Switch } from 'react-router-dom';
 import Home from './Home'
+import ParkCard from './ParkCard'
 
 function App() {
   // const [parks, setParks] = useState([])
@@ -32,10 +33,9 @@ function App() {
         <Route exact path = "/"> 
           <Home />
         </Route>
-        {/* <Route exact path = "/NavBar"> 
-        <NavBar />
-        </Route> */}
-        
+        <Route exact path = "/About">
+          <ParkCard />
+          </Route>
         <Route exact path = "/ParkForm"> 
           <ParkForm />
         </Route>

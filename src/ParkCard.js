@@ -3,6 +3,8 @@ import React from 'react'
 function ParkCard({image,name}) {
 
   return (
+    <div>
+    <h1> Hi </h1>
     <div class="container">
       <div class="row">
         <div class="col-4">
@@ -12,6 +14,7 @@ function ParkCard({image,name}) {
             <p class="card-text">{name}</p>
         </div>
         <button type="button" class="btn btn-primary">View More</button>
+    </div>
     </div>
     </div>
     </div>
