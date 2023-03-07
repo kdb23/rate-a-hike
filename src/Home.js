@@ -16,7 +16,6 @@ function Home ({parks, addProject}) {
         <div>
         
         <Carousel></Carousel>
-        <ParkForm addProject={addProject}/>
         <Parks parks={parks}/>
       </div>  
     )
