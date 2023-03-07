@@ -7,7 +7,7 @@ function NavBar() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">"Insert webiste name"</Navbar.Brand>
+          <Navbar.Brand href="#home">"Git-Away Hikes"</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">About Page</Nav.Link>

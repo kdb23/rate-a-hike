@@ -6,7 +6,7 @@ import Header from './Header';
 import ParkForm from './ParkForm';
 import NavBar from './NavBar';
 import { Carousel } from 'react-bootstrap';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Home from './Home'
 
 function App() {
@@ -24,6 +24,8 @@ function App() {
 
   return (
     <div>
+      <NavBar />
+      <Switch>
       <Route exact path = "/"> 
       <Home />
       </Route>
@@ -32,9 +34,10 @@ function App() {
       </Route> */}
        <Header></Header>
       <Carousel></Carousel>
-      <Route exact path = "/NavBar"> 
-      <NavBar />
+      <Route exact path = "/ParkForm"> 
+      <ParkForm />
       </Route>
+      </Switch>
       {/* <NavBar></NavBar>
       <ParkForm addProject={addProject}/>
       <Parks parks={parks}/>  */}
