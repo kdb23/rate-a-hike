@@ -24,19 +24,21 @@ function App() {
 
   return (
     <div>
+      
+      <Header />
+      <Carousel/>
       <NavBar />
       <Switch>
-      <Route exact path = "/"> 
-      <Home />
-      </Route>
-      {/* <Route exact path = "/NavBar"> 
-      <NavBar />
-      </Route> */}
-       <Header></Header>
-      <Carousel></Carousel>
-      <Route exact path = "/ParkForm"> 
-      <ParkForm />
-      </Route>
+        <Route exact path = "/"> 
+          <Home />
+        </Route>
+        {/* <Route exact path = "/NavBar"> 
+        <NavBar />
+        </Route> */}
+        
+        <Route exact path = "/ParkForm"> 
+          <ParkForm />
+        </Route>
       </Switch>
       {/* <NavBar></NavBar>
       <ParkForm addProject={addProject}/>
