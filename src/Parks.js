@@ -14,7 +14,7 @@ function Parks({parks}) {
       />
   }))
   return (
-    <div>{parkCard}</div>
+    <div class="row row-cols-3 ">{parkCard}</div>
 
   )
 }

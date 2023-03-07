@@ -15,23 +15,17 @@ function ParkCard({image,name, peak, location, size, description}) {
   );
 
   return (
-    <Container>
-      <Row>
-        <div class="col-4">
-       <div class="card">
-        <img class="card-img-top" src={image} alt={name} />
-        <div class="card-body">
-            <p class="card-text">{name}</p>
-        </div>
+    <div class="card text-center">
+      <img class="card-img-top" style={{ width: '100%', height: '100%' }} src={image} alt={name} />
+      <div class="card-body">
+          <p class="card-text">{name}</p>
+      </div>
       <ButtonToolbar>
       <OverlayTrigger trigger="click" placement="right" overlay={popoverClick}>
       <Button>View More</Button>
     </OverlayTrigger>
     </ButtonToolbar>
-    </div>
-    </div>
-    </Row>
-   </Container> 
+   </div> 
   
   )
 }

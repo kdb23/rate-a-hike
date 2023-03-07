@@ -9,15 +9,25 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './Home'
 import ParkCard from './ParkCard';
 import Parks from './Parks'
+import Hikes from './Hikes'
 import Location from './Location'
 
 function App() {
   const [parks, setParks] = useState([])
+  const [hikes, setHikes] = useState([])
+
+  console.log(parks)
 
   useEffect(() => {
     fetch("http://localhost:3002/parks")
       .then(r => r.json())
       .then(setParks)
+  }, [])
+
+  useEffect(() => {
+    fetch("http://localhost:3002/hikes")
+      .then(r => r.json())
+      .then(setHikes)
   }, [])
 
   const addProject = (newPark) => {
@@ -35,8 +45,8 @@ function App() {
         <Route exact path = "/"> 
           <Home parks={parks} addProject={addProject}/>
         </Route>
-        <Route exact path = "/about">
-          <Parks parks={parks}/>
+        <Route exact path = "/hikes">
+          <Hikes parks={parks} hikes={hikes}/>
           </Route>
         <Route exact path = "/parkForm"> 
           <ParkForm addProject={addProject}/>
