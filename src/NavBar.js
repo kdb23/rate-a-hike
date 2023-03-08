@@ -9,12 +9,12 @@ function NavBar() {
       <Navbar bg="dark" variant="dark">
         <Container class="nav flex-column">
           <Navbar.Brand>
-            <NavLink to='/'> Git Away Hikes</NavLink>
+            <NavLink style={{color: 'white', textDecoration: 'none'}} to='/'> Git Away Hikes</NavLink>
           </Navbar.Brand>
           <Nav className="me-auto">
-            <NavLink to="/hikes">Hikes</NavLink>
+            <NavLink style={{color: 'white', textDecoration: 'none'}}to="/hikes">Hikes</NavLink>
             <div> ""  </div>
-            <NavLink to="/parkform">Submit A Hike</NavLink>
+            <NavLink style={{color: 'white', textDecoration: 'none'}}to="/parkform">Submit A Hike</NavLink>
           </Nav>
         </Container>
       </Navbar>

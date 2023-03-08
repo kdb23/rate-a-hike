@@ -37,3 +37,11 @@
   }
 }
 
+h1 {
+  font-size: 180px !important;
+  position:relative;
+  bottom:150px;
+  font-family: impact ; 
+  font-weight: bold;
+  text-shadow: 4px 6px 6px rgba(46,91,173,0.6);
+}
