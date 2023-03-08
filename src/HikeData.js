@@ -5,7 +5,9 @@ function HikeData ({hike}) {
 
     let {id, park, name, length, description} = hike
 
-    console.log(id, park, name, length, description)
+    let justNum = length.replace(/\D/g, '')
+    
+    justNum /= Math.pow(10, 1)
 
     return (
         <div class="card text-center">
