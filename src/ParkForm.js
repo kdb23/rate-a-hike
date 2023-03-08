@@ -1,7 +1,14 @@
 import React, {useState} from "react"; 
 import {Container, Row, Col, Button, Form } from 'react-bootstrap'
+import ModalPopup from "./Modal";
 
 function ParkForm ({addProject}) {
+
+   
+    const [showModal, setShow] = useState(false);
+    let handleModal = (visible) =>{
+        return setShow(visible)
+    }
 
     const [formData, setFormData]=useState({
         name: "", 
@@ -32,8 +39,8 @@ function ParkForm ({addProject}) {
         .then(addProject)
 
         e.target.reset()
+        handleModal(true)
 
-        console.log("it's submitting")
     }
 
     return (
@@ -64,6 +71,7 @@ function ParkForm ({addProject}) {
                 <Form.Control type="text" placeholder="Mount BigBoy at XXX feet" name="highest-point" onChange={handleChange}/>.
             </Form.Group>
             <Button variant="primary" type="submit"> Submit Park </Button>
+            <ModalPopup show={showModal} handleModal={handleModal} />
         </Form>
     </Container>
     )
