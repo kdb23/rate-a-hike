@@ -15,8 +15,6 @@ function NavBar() {
             <NavLink to="/hikes">Hikes</NavLink>
             <div> ""  </div>
             <NavLink to="/parkform">Submit A Hike</NavLink>
-            <div>""</div>
-            <NavLink to="/location">Location</NavLink>
           </Nav>
         </Container>
       </Navbar>
