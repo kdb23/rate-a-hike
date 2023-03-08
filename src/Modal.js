@@ -10,7 +10,7 @@ function ModalPopup ({show, handleModal}) {
 
 return(
     <>
-    <div className="d-flex align-items-center justify-content-center" style={{height: "100vh"}}>
+    <div className="d-flex align-items-center justify-content-center" style={{height: "10vh"}}>
         </div>
     <Modal show ={show} onHide={handleClose}>
         <Modal.Header closeButton>
