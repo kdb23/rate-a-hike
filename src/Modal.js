@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import {Modal, Button} from 'react-bootstrap';
+import {NavLink} from 'react-router-dom'
 
 
 function ModalPopup ({show, handleModal}) {
@@ -18,7 +19,9 @@ return(
         </Modal.Header>
         <Modal.Body>Head Over To The Git-Away Hikes Homepage To See Your Park Submission </Modal.Body>
         <Modal.Footer>
+        <NavLink to="/">
             <Button variant="secondary" onClick={handleClose}>Close</Button>
+        </NavLink>
         </Modal.Footer>
         </Modal>
         </>

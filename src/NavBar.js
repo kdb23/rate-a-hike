@@ -13,8 +13,6 @@ function NavBar() {
           </Navbar.Brand>
           <Nav className="me-auto">
             <NavLink style={{color: 'white', textDecoration: 'none'}}to="/hikes">Hikes</NavLink>
-            <div> ""  </div>
-            <NavLink style={{color: 'white', textDecoration: 'none'}}to="/parkform">Submit A Hike</NavLink>
           </Nav>
         </Container>
       </Navbar>

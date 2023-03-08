@@ -10,7 +10,7 @@ import Home from './Home'
 import ParkCard from './ParkCard';
 import Parks from './Parks'
 import Hikes from './Hikes'
-import Location from './Location'
+
 
 function App() {
   const [parks, setParks] = useState([])
@@ -100,9 +100,6 @@ function App() {
           </Route>
         <Route exact path = "/parkForm"> 
           <ParkForm addProject={addProject}/>
-        </Route>
-        <Route exact path="/location">
-          <Location />
         </Route>
       </Switch>
     </div>
