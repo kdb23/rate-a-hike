@@ -20,7 +20,7 @@ return(
         <Modal.Body>Head Over To The Git-Away Hikes Homepage To See Your Park Submission </Modal.Body>
         <Modal.Footer>
         <NavLink to="/">
-            <Button variant="secondary" onClick={handleClose}>Close</Button>
+            <Button variant="secondary" onClick={handleClose}>Close &#128507;</Button>
         </NavLink>
         </Modal.Footer>
         </Modal>
