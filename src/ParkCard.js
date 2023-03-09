@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container, Row } from 'react-bootstrap'
 import { Popover,OverlayTrigger, ButtonToolbar, Button } from 'react-bootstrap';
+import StarRating from './StarRating';
 
 
 function ParkCard({image,name, peak, location, size, description}) {
@@ -20,10 +21,15 @@ function ParkCard({image,name, peak, location, size, description}) {
       <div class="card-body">
           <p class="card-text">{name}</p>
       </div>
+      
       <ButtonToolbar>
+        
       <OverlayTrigger trigger="click" placement="right" overlay={popoverClick}>
+        
       <Button>View More</Button>
+      
     </OverlayTrigger>
+    <StarRating></StarRating>
     </ButtonToolbar>
    </div> 
   
