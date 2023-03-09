@@ -45,3 +45,10 @@ h1 {
   font-weight: bold;
   text-shadow: 4px 6px 6px rgba(46,91,173,0.6);
 }
+
+.on {
+  color: #000;
+}
+.off {
+  color: #ccc;
+}

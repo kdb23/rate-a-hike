@@ -21,7 +21,7 @@ function ParkCard({image,name, peak, location, size, description}) {
       <div class="card-body">
           <p class="card-text">{name}</p>
       </div>
-      
+      <StarRating/>
       <ButtonToolbar>
         
       <OverlayTrigger trigger="click" placement="right" overlay={popoverClick}>
@@ -29,7 +29,7 @@ function ParkCard({image,name, peak, location, size, description}) {
       <Button>View More</Button>
       
     </OverlayTrigger>
-    <StarRating></StarRating>
+    
     </ButtonToolbar>
    </div> 
   
