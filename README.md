@@ -1,4 +1,7 @@
-Welcome to our Phase 2 Project: [insert name].
+Welcome to our Phase 2 Project.
+
+see the link below to watch a quick demo of our site:
+https://www.loom.com/share/20d260c967f84af2b87406d3a4a24629
 
 The requirements of this project are as follows:
 
